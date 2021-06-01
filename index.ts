@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 import express, { Application } from 'express'
-import { buildSchema, registerEnumType } from 'type-graphql';
+import { buildSchema } from 'type-graphql';
 import { graphqlHTTP } from 'express-graphql'
 import { RecipeResolver } from './resolvers/recipe.resolver';
 

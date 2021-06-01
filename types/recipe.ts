@@ -27,16 +27,3 @@ export class Recipe {
   @Field(type => Flavor)
   flavor: Flavor;
 }
-
-// @ObjectType({ description: "The recipe model" })
-// class Recipe {
-//   @Field(type => ID)
-//   id: string;
-
-//   @Field({ description: "The title of the recipe" })
-//   title: string;
-
-//   @Field({ nullable: true })
-//   averageRating?: number;
-// }
-
